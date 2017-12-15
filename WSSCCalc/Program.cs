@@ -19,11 +19,11 @@ namespace WSSCCalc
             int temp = int.Parse(Console.ReadLine());
             if (temp == 1)
             {
-                Program.Add(firstNumber, secondNumber);
+                Program.Subtract(firstNumber, secondNumber);
             }
             else if (temp == 2)
             {
-                Program.Subtract(firstNumber, secondNumber);
+                Program.Add(firstNumber, secondNumber);
             }
             else
             {
